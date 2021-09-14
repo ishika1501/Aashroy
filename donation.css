@@ -1,0 +1,301 @@
+@font-face {
+    font-family: "flood-std";
+    src: url("fonts/FloodStd.otf");
+
+}
+
+
+body {
+
+margin:0;
+padding: 0%;
+overflow: hidden;
+position: relative;
+width: 100vw;
+height: auto;
+background-image: url('./image/PicsArt_09-05-07.49.45.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+
+}
+header{
+    width: 100%;
+    margin-bottom: 1vw;
+}
+.container {
+    margin: 0 10% 0 10%;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.title{
+    width: 100%;
+    height: 100%;
+    font-size: 2vw;
+    text-align: center;
+}
+.make-donation {
+    
+    background-repeat: no-repeat; 
+    background-size: 100%  100%;
+    width: 100%;
+    height: auto;
+}
+.make-donation-slogan{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.form-donation{
+    width: 53%;
+    background-color: #000000d2;
+    height: auto;
+    padding: 3vw;
+}
+form{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+}
+.personal-info{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.personal-info-heading{
+    width: 100%;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.personal-info-heading > h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.medium-control{
+    width:45%; 
+    margin-bottom: 1vw;
+}
+.large-control{
+    width: 100%;
+    margin-bottom: 1.5vw;
+}
+.small-control{
+    width: 17.5%;
+
+}
+.medium-control-two{
+    width: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+input{
+    border: none;
+    background: #ffffff;
+    border-bottom: .1vw solid #C1F7D5;
+    font-size: 1.5vw;
+    padding-top:.5vw;
+    padding-bottom: .5vw;
+}
+select{
+    border: none;
+    background: #ffffff;
+    border-bottom: .1vw solid #C1F7D5;
+    font-size: 1.5vw;
+    padding-top:.5vw;
+    padding-bottom: .5vw;
+    color: #C1F7D5;
+}
+
+label{
+    width: 100%;
+    font-size: .9vw;
+    min-height: 2vw;
+}
+.medium-input{
+    width: 100%;
+}
+.large-input{
+    width:100%;
+
+}
+.small-input{
+    width:100%;    
+}
+.small-input-two{
+    width: 43%;
+}
+
+.process-payment{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.back-link{
+    color: #C1F7D5;
+    font-size: .8vw;
+}
+.donate-today{
+    width: 41%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button{
+   
+    background: #C1F7D5;
+    border-radius: 1em;
+    width: auto;
+    height: auto;
+    font-size: 1.7vw;
+    padding: .5vw;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.make-donation-tagline{
+    width: 35%;
+    height: auto;
+    font-family:flood-std;
+    font-size: 5vw;
+    color: white;
+}
+footer{
+    width: 100%;
+    margin-bottom: 1vw;
+    padding-top: 2vw;
+}
+
+.footer-title{
+    width: 20%;
+    height: 100%;
+    font-size: 1.5vw;
+    text-align: left;
+}
+.nav{
+    
+    width: 80%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.nav-items{
+    font-size: 1.1vw;
+    width:20%;
+    height: auto;
+    align-content: center;
+}
+.links{
+    list-style-type: none;
+    padding: 0;
+}
+.footer-slogan{
+    width: 20%;
+    font-family:flood-std;
+    font-size: 3vw;
+    text-align: end;
+}
+hr{
+    width: 90%;
+    float: left;
+}
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 3.2vw;
+    }
+    .make-donation-tagline{
+        width: 100%;
+        order: -1;
+        font-size: 7vw;
+        text-align: center;
+    }
+    .form-donation{
+        width: 100%;
+    }
+    .personal-info-heading{
+        font-size: 3vw;
+    }
+    label{
+        font-size: 1.5vw;
+    }
+    .nav-items{
+        width: 34%;
+        height: 35%;
+        font-size: 2vw;
+    }
+    .footer-slogan{
+        width: 33%;
+        font-family: flood-std;
+        font-size: 7vw;
+        text-align: unset;
+    }
+    
+    .footer-title {
+        width: 29%;
+        height: 100%;
+        font-size: 3.2vw;
+        text-align: left;
+    }
+    footer > .container {
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width: 480px){
+    .title {
+        font-size: 4vw;
+    }
+    .make-donation-tagline{
+        width: 100%;
+        order: -1;
+        font-size: 7vw;
+        text-align: center;
+    }
+    .form-donation{
+        width: 100%;
+    }
+    .personal-info-heading{
+        font-size: 2.5vw;
+    }
+    label{
+        font-size: 2vw;
+    }
+    .donate-today{
+        width: 100%;
+        order:-1;
+        justify-content: center;
+    }
+    .button{
+        font-size: 2.7vw;
+    }
+    .back-link{
+        font-size: 2vw;
+    }
+    .footer-title{
+        width: 50%;
+    }
+    footer > .container {
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .footer-slogan{
+        width: 51%;
+    font-family: flood-std;
+    font-size: 7vw;
+    text-align: right;
+    margin-left: auto;
+    }
+
+}
